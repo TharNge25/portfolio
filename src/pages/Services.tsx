@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import {
   Code,
   Layout,
@@ -17,12 +17,12 @@ const Services = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   // Popup ဖွင့်/ပိတ် အတွက် State
-  const [selectedService, setSelectedService] = useState(null);
+  const [selectedService, setSelectedService] = useState<any>(null);
 
-  const scroll = (direction) => {
-    const { current } = scrollRef;
+  const scroll = (direction: any) => {
+    const { current }: any = scrollRef;
     if (current) {
-      current.scrollBy({
+      current?.scrollBy({
         left: direction === "left" ? -400 : 400,
         behavior: "smooth",
       });
@@ -141,7 +141,7 @@ const Services = () => {
         {filteredServices.map((service) => (
           <div
             key={service.id}
-            onClick={() => setSelectedService(service)}
+            onClick={() => setSelectedService(service as any)}
             className="group relative min-w-[320px] md:min-w-[380px] snap-center rounded-2xl p-8 flex flex-col justify-between transition-all duration-300 
             bg-[#050505] border border-zinc-800 hover:border-[#4ADE80] cursor-pointer"
           >
@@ -219,7 +219,7 @@ const Services = () => {
                   Included Features
                 </h4>
                 <ul className="space-y-3 pt-2">
-                  {selectedService.features.map((feature, idx) => (
+                  {selectedService.features.map((feature: any, idx: any) => (
                     <li
                       key={idx}
                       className="flex items-start gap-3 text-sm text-gray-300"

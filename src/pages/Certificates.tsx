@@ -1,5 +1,4 @@
-import React from "react";
-import { Award, Calendar, ExternalLink, BadgeCheck } from "lucide-react";
+import { Calendar, ExternalLink, BadgeCheck } from "lucide-react";
 
 const Certificates = () => {
   // Sample Certificate Data

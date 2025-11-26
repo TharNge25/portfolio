@@ -1,12 +1,5 @@
-import React, { useState } from "react";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Outlet,
-  NavLink,
-  Link,
-} from "react-router-dom";
+import { useState } from "react";
+import { Outlet, NavLink, Link } from "react-router-dom";
 import {
   Home,
   Briefcase,

@@ -1,5 +1,4 @@
-import React from "react";
-import { ArrowRight, Linkedin, Twitter, Globe } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const Home = () => {
   return (
