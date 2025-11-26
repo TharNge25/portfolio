@@ -116,7 +116,7 @@ const Services = () => {
   );
 
   return (
-    <div className="min-h-screen bg-black text-white font-sans flex flex-col justify-center py-20 relative">
+    <div className=" bg-black text-white font-sans flex flex-col justify-center py-20 relative">
       {/* --- Header Section --- */}
       <div className="max-w-7xl mx-auto px-6 w-full mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
         <div className="space-y-2">
@@ -261,9 +261,11 @@ const Services = () => {
               </div>
 
               {/* Contact Button inside Modal */}
-              <button className="w-full mt-4 bg-[#4ADE80] text-black font-bold py-4 rounded-xl hover:bg-[#3ecf72] transition-colors">
-                ဆက်သွယ်ရန် (Get Started)
-              </button>
+              <a href="https://wa.me/959251905157" target="_blank">
+                <button className="w-full mt-4 bg-[#4ADE80] text-black font-bold py-4 rounded-xl hover:bg-[#3ecf72] transition-colors">
+                  ဆက်သွယ်ရန် (Get Started)
+                </button>
+              </a>
             </div>
           </div>
         </div>

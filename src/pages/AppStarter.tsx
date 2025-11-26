@@ -33,7 +33,7 @@ const Header = () => {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-2 border">
+        <div className="hidden md:flex items-center space-x-2">
           {navItems.map((item) => (
             <NavLink
               key={item.name}
@@ -97,7 +97,7 @@ const AppStarter = () => {
       <Header />
 
       {/* Navbar က Fixed ဖြစ်နေလို့ အပေါ်ဘက်မှာ Padding (pt-24) နည်းနည်းခြားပေးရပါတယ် */}
-      <div className="pt-24 px-4 sm:px-10 max-w-7xl mx-auto">
+      <div className="pt-10 px-4 sm:px-10 max-w-7xl mx-auto">
         <Outlet />
       </div>
 
