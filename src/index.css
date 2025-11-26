@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+  .header-btn {
+    @apply border border-white rounded-lg p-2 flex items-center justify-center gap-2 cursor-pointer text-sm font-semibold;
+  }
+}
