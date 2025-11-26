@@ -15,7 +15,9 @@ function Header() {
 
   return (
     <div className="w-full border-b border-white rounded-b-lg flex flex-col gap-4 md:flex-row md:justify-between p-2 sm:px-10">
-      <p className="text-lg font-semibold tracking-widest">DevelopedBy Thi Ha</p>
+      <p className="text-lg font-semibold tracking-widest">
+        DevelopedBy Thi Ha
+      </p>
 
       <div
         className={`${

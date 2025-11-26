@@ -13,10 +13,11 @@ const Home = () => {
             </h1>
 
             <p className="text-gray-400 text-lg leading-relaxed max-w-lg font-mono">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              beatae ipsa nihil veritatis necessitatibus officia consectetur
-              praesentium, distinctio nesciunt iure aliquid laborum dolores
-              similique, saepe omnis soluta natus cum. Reiciendis.
+              Digital ကမ္ဘာရဲ့ စိတ်ကူးစိတ်သန်းတွေကို လက်တွေ့အဖြစ်
+              ပြောင်းလဲပေးသူ။ ကျွန်တော်သည် React, Node.js နှင့် Modern Web
+              နည်းပညာများကို ပေါင်းစပ်ပြီး ဆွဲဆောင်မှုရှိသော Digital Experience
+              များကို ဖန်တီးပါသည်။ ရိုးရှင်းမှုနှင့် သေသပ်လှပမှုကို အခြေခံပြီး
+              သုံးစွဲသူများအတွက် အကောင်းဆုံး လက်ရာများကို တည်ဆောက်ပေးနေပါသည်။
             </p>
 
             <a href="https://t.me/Thixa5298">
@@ -35,7 +36,7 @@ const Home = () => {
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-zinc-800 shadow-2xl">
               {/* Placeholder Image - ကိုယ့်ပုံ URL နဲ့ ပြန်ချိန်းပါ */}
               <img
-                src="./mm.jpg"
+                src="./image copy 4.png"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

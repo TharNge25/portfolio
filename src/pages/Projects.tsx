@@ -86,7 +86,7 @@ const Projects = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-between items-end gap-6">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
-            Featured Projects<span className="text-[#4ADE80]">.</span>
+            Featured Projects<span className="text-[#4ADE80]"></span>
           </h1>
 
           {/* Stats / Counter */}

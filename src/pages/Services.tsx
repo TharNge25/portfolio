@@ -83,6 +83,32 @@ const Services = () => {
         "Secure Data Handling",
       ],
     },
+    {
+      id: "04",
+      title: "API Integration",
+      icon: <Database className="w-8 h-8" />,
+      desc: "Connecting your app to third-party services.",
+      price: "Custom Quote",
+      features: [
+        "Payment Gateway Setup",
+        "Social Media Login",
+        "Google Maps Integration",
+        "Secure Data Handling",
+      ],
+    },
+    {
+      id: "04",
+      title: "API Integration",
+      icon: <Database className="w-8 h-8" />,
+      desc: "Connecting your app to third-party services.",
+      price: "Custom Quote",
+      features: [
+        "Payment Gateway Setup",
+        "Social Media Login",
+        "Google Maps Integration",
+        "Secure Data Handling",
+      ],
+    },
   ];
 
   const filteredServices = services.filter((service) =>
@@ -98,7 +124,7 @@ const Services = () => {
             What I Do
           </p>
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
-            My Services<span className="text-[#4ADE80]">.</span>
+            My Services<span className="text-[#4ADE80]"></span>
           </h1>
         </div>
 
@@ -226,7 +252,7 @@ const Services = () => {
                     >
                       <CheckCircle
                         size={18}
-                        className="text-[#4ADE80] mt-0.5 flex-shrink-0"
+                        className="text-[#4ADE80] mt-0.5 flex-shrink-0?"
                       />
                       <span>{feature}</span>
                     </li>

@@ -7,9 +7,9 @@ import {
   Copy,
   Check,
   Github,
-  Linkedin,
-  Twitter,
+  Facebook,
 } from "lucide-react";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
   const [copied, setCopied] = useState(false);
@@ -104,13 +104,24 @@ const Contact = () => {
               Find me on social media:
             </p>
             <div className="flex gap-4">
-              {[Github, Linkedin, Twitter].map((Icon, idx) => (
+              {/* ဒီနေရာမှာ Array ကို Object ပုံစံ ပြောင်းလိုက်ပါတယ် */}
+              {[
+                { Icon: Github, link: "https://github.com/TharNge25" },
+                {
+                  Icon: Facebook,
+                  link: "https://www.facebook.com/share/1CwqYJNz7R/",
+                },
+                { Icon: BsWhatsapp, link: "https://wa.me/959251905157" },
+              ].map((social, idx) => (
                 <a
                   key={idx}
-                  href="#"
+                  href={social.link} // Link ကို ဒီမှာ လှမ်းခေါ်ပါတယ်
+                  target="_blank" // Tab အသစ်နဲ့ ပွင့်အောင်ထည့်ပါတယ်
+                  rel="noreferrer" // Security အတွက်ပါ
                   className="p-3 rounded-full border border-zinc-800 text-zinc-400 hover:text-[#4ADE80] hover:border-[#4ADE80] hover:bg-[#4ADE80]/10 transition-all"
                 >
-                  <Icon size={20} />
+                  {/* Icon ကို social.Icon ဆိုပြီး ပြန်ခေါ်ပါတယ် */}
+                  <social.Icon size={20} />
                 </a>
               ))}
             </div>
