@@ -4,16 +4,16 @@ import { Calendar, ExternalLink, X, Eye } from "lucide-react";
 const Certificates = () => {
   // Modal အတွက် State
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-//Network Engineering & Administration
+  //Network Engineering & Administration
   // Sample Certificate Data (အစ်ကို့ရဲ့ သင်တန်းဆင်းလက်မှတ်များ)
   const certificates = [
-   {
+    {
       id: 2,
       title: "Network Engineering & Administration",
       issuer: "Professional Training Center",
       date: "Issued 2023",
       image:
-        "https://www.wcctv.co.uk/", // CCTV/Security Image Placeholder
+        "https://solutionsreview.com/network-monitoring/files/2019/10/networking-certifications.jpg",
       link: "#",
     },
     {

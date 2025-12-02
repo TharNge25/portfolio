@@ -1,15 +1,15 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import AppStarter from "./pages/AppStarter"
-import Home from "./pages/Home"
-import Services from "./pages/Services"
-import Projects from "./pages/Projects"
-import Certificates from "./pages/Certificates"
-import Contact from "./pages/Contact"
-import PageNotFound from "./pages/PageNotFound"
+import { HashRouter, Route, Routes } from "react-router-dom";
+import AppStarter from "./pages/AppStarter";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Projects from "./pages/Projects";
+import Certificates from "./pages/Certificates";
+import Contact from "./pages/Contact";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<AppStarter />}>
           <Route path="" element={<Home />} />
@@ -20,8 +20,8 @@ function App() {
           <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
-  )
+    </HashRouter>
+  );
 }
 
-export default App
+export default App;
