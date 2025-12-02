@@ -29,7 +29,7 @@ const Header = () => {
           to="/"
           className="text-xl font-bold tracking-wide text-white hover:text-[#4ADE80] transition-colors"
         >
-          Mai Thi Ha<span className="text-[#4ADE80]">.</span>
+          Mai Thi Ha<span className="text-[#4ADE80]"></span>
         </Link>
 
         {/* Desktop Menu */}

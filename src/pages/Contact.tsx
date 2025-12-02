@@ -125,7 +125,7 @@ const Contact = () => {
             </p>
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
               Let's work <br /> together
-              <span className="text-[#4ADE80]">.</span>
+              <span className="text-[#4ADE80]"></span>
             </h1>
             <p className="text-zinc-400 text-lg leading-relaxed max-w-md font-sans">
               ပရောဂျက်အသစ်တွေ ဆွေးနွေးချင်တာပဲဖြစ်ဖြစ်၊
