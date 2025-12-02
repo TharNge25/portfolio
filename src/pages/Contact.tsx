@@ -79,7 +79,7 @@ const Contact = () => {
     // FORMSPREE INTEGRATION START
     // ---------------------------------------------------------
     // ဒီနေရာမှာ အစ်ကို့ရဲ့ Formspree ID ကို ထည့်ပါ (ဥပမာ: "xmqvonlo")
-    const FORMSPREE_ID = "YOUR_FORM_ID";
+    const FORMSPREE_ID = "https://formspree.io/f/myzqbgjg";
 
     const endpoint = `https://formspree.io/f/${FORMSPREE_ID}`;
 

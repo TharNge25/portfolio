@@ -4,17 +4,17 @@ import { Calendar, ExternalLink, X, Eye } from "lucide-react";
 const Certificates = () => {
   // Modal အတွက် State
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-
+//Network Engineering & Administration
   // Sample Certificate Data (အစ်ကို့ရဲ့ သင်တန်းဆင်းလက်မှတ်များ)
   const certificates = [
-    {
-      id: 1,
+   {
+      id: 2,
       title: "Network Engineering & Administration",
-      issuer: "Networking Academy",
-      date: "Issued 2023", // ရက်စွဲအမှန် ပြင်ဆင်နိုင်သည်
+      issuer: "Professional Training Center",
+      date: "Issued 2023",
       image:
-        "https://www.google.com/imgres?q=Network%20Engineering%20%26%20Administration%20cisco&imgurl=https%3A%2F%2Fwww.cisco.com%2Fcontent%2Fdam%2Fcisco-cdc%2Fsite%2Fimages%2Flegacy%2Fassets%2Fswa%2Fimg%2Fanchor-info%2Fnetwork-management-new-628x353.jpg&imgrefurl=https%3A%2F%2Fwww.cisco.com%2Fsite%2Fus%2Fen%2Flearn%2Ftopics%2Fnetworking%2Fwhat-is-network-management.html&docid=N2Jk9U86oD29kM&tbnid=wHmc_joq5HeD2M&vet=12ahUKEwjjoKmFypSRAxXizDgGHU2JOGQQM3oECCgQAA..i&w=628&h=353&hcb=2&ved=2ahUKEwjjoKmFypSRAxXizDgGHU2JOGQQM3oECCgQAAhttps://www.google.com/imgres?q=Network%20Engineering%20%26%20Administration%20cisco&imgurl=https%3A%2F%2Fwww.cisco.com%2Fcontent%2Fdam%2Fcisco-cdc%2Fsite%2Fimages%2Flegacy%2Fassets%2Fswa%2Fimg%2Fanchor-info%2Fnetwork-designed-628x353.jpg&imgrefurl=https%3A%2F%2Fwww.cisco.com%2Fsite%2Fus%2Fen%2Flearn%2Ftopics%2Fnetworking%2Fwhat-is-network-design.html&docid=hfw5UaOPAokcqM&tbnid=u7bQvhsQYG4RdM&vet=12ahUKEwjjoKmFypSRAxXizDgGHU2JOGQQM3oECCMQAA..i&w=628&h=353&hcb=2&ved=2ahUKEwjjoKmFypSRAxXizDgGHU2JOGQQM3oECCMQAA", // Networking Image Placeholder
-      link: "#", // Credential Link အစစ်ထည့်ရန်
+        "https://www.wcctv.co.uk/", // CCTV/Security Image Placeholder
+      link: "#",
     },
     {
       id: 2,
